@@ -1,0 +1,60 @@
+/* Tables */
+.tb1 {
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 3px;
+    margin:auto;
+    width:90%;
+}
+
+.txt {
+    text-align:center;
+}
+
+.tb1 tr th {
+    border-width: 2px;
+    border-style: groove;
+    background-color:lightcoral;
+    text-align: center;
+}
+
+.tb1 tr td {    
+    border-width: 2px;
+    border-style: groove;
+    background-color:lightgrey;
+    text-align: center;
+}
+
+/* navbars */
+
+.nav1 .nav1 {
+    background-color:black;
+    color:white;
+}
+
+
+.nav1 ul {
+    margin:0px;
+    padding:0px;
+}
+
+.nav1 li {
+    display:inline-block;
+    font-size: 25px;
+    list-style-type: none;
+    text-align:center;
+    padding: 16px 14px;
+}
+
+.nav1 li:hover {
+    background-color:green;
+}
+
+.navimg {
+    width:75px;
+    height:75px;
+}
+
+.nav2 {
+
+}
