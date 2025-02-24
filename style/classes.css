@@ -57,4 +57,23 @@
 
 .nav2 {
 
+    background-color:black;
+    color:white;
+    font-size: 25px;
+}
+
+.nav2 ul {
+    display:flex;
+    list-style-type: none;
+
+}
+
+.nav2 .li1 {
+
+    flex: 1 2;
+
+}
+
+.nav2 .li2 {
+    padding-right:50%;
 }
