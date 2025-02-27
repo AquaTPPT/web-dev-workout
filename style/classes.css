@@ -1,3 +1,53 @@
+.inline {
+    display:inline;
+}
+
+/* flex-related */
+
+.flex {
+    display:flex;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+/* list */
+
+.nodots {
+    list-style-type: none;
+}
+
+/* Other */
+
+.txtwhite {
+    color: white;
+}
+
+.div {
+
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.red {
+    border-color:red;
+}
+
+/* images */
+
+.win95img {
+    width:32px;
+    height:32px;
+}
 /* Tables */
 .tb1 {
     border-width: 2px;
@@ -56,7 +106,6 @@
 }
 
 .nav2 {
-
     background-color:black;
     color:white;
     font-size: 25px;
@@ -65,15 +114,125 @@
 .nav2 ul {
     display:flex;
     list-style-type: none;
-
+    padding:0px;
 }
 
 .nav2 .li1 {
-
-    flex: 1 2;
-
+    background-color: blueviolet;
+    flex: 1;
+    padding: 16px 14px;
+    text-align: center;
 }
 
 .nav2 .li2 {
-    padding-right:50%;
+    flex: 10
+}
+
+.nav2 .li1:hover {
+    background-color: green;
+}
+
+.nav2 .li3 {
+    background-color: blueviolet;
+    flex: 2;
+    padding: 14px;
+    text-align: center;
+}
+
+.nav2 .li3:hover {
+    background-color: green;
+}
+
+.nav3 {
+
+    background-color:rgb(26, 29, 71);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+
+.contents1 {
+    flex:2;
+}
+
+/*
+.nav3 .div1 {
+    margin: 15px;
+    padding: 20px;
+}
+*/
+.nav3 .li1 {
+    padding: 16px 14px;
+}
+
+.nav3 ul li:hover {
+    background-color: green;
+}
+
+.nav3 .li3 {
+
+    padding: 16px 14px;
+}
+
+/* nav4 */
+
+.nav4 {
+    background-color: rgb(26, 29, 71);
+    border-radius:10px;
+    color:white;
+}
+.nav4 .li1 {
+    flex: 1 1 auto;
+    text-align:center;
+    width: 75px;
+    padding:15px;
+}
+
+.nav4 .li3 {
+    flex: 2 1 auto;
+    width: 100px;
+    text-align:center;
+    padding:15px;
+}
+
+.nav4 .li1:hover {
+    background-color:green;
+}
+
+.nav4 .li3:hover {
+    background-color: green;
+}
+
+.nav4 .img {
+    margin: auto;
+    margin-right: 10%;
+    
+}
+
+.nav4 .img .win95img {
+    margin:10px;
+}
+
+/* flexbox website */
+
+.box1 {
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    flex: 1 1 150px;
+}
+
+.box2 {
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 75%;
 }
