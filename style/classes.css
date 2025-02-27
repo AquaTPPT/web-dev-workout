@@ -8,6 +8,10 @@
     display:flex;
 }
 
+.flexcol {
+    flex-direction:column
+}
+
 .just-between {
     justify-content: space-between;
 }
@@ -28,6 +32,10 @@
 
 /* Other */
 
+.nomargin {
+    margin:0;
+}
+
 .txtwhite {
     color: white;
 }
@@ -42,12 +50,24 @@
     border-color:red;
 }
 
+.center {
+    text-align:center;
+}
+
+.mauto {
+    margin:auto;
+}
+
+.pauto {
+    padding:auto;
+}
 /* images */
 
 .win95img {
     width:32px;
     height:32px;
 }
+
 /* Tables */
 .tb1 {
     border-width: 2px;
@@ -214,7 +234,7 @@
     margin:10px;
 }
 
-/* flexbox website */
+/* flexbox page */
 
 .box1 {
     background-color: pink;
@@ -249,6 +269,24 @@
     flex: 1 1 150px;
 }
 
+.box4 {   
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    flex: 1 1 0;
+
+}
+
+.height1 {
+    height: 100px;
+}
+
+.height2 {
+    height:50px;
+}
+
 .box_a {
 
     background-color: pink;
@@ -259,4 +297,46 @@
     padding: 15px;
     width:fit-content;
     margin:auto;
+}
+
+.box4 table {
+    border-style: groove;
+    border-color: blue;
+    border-width: 3px;
+    margin: 25px;
+    border-radius:5px;
+}
+
+.box4 table tr td {
+    border-style: groove;
+    border-width: 3px;
+    margin:0;
+    padding:5px;
+}
+
+.tableh2 {
+    background-color:brown;
+    border-color:white;
+}
+
+.case {
+    flex: 1 1 45%;
+}
+
+.div2 {
+    width:100%;
+}
+
+.col2 {
+    width:45%;
+}
+
+.box5 {
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    flex: 1 1 0;
+    padding:15px;
 }
