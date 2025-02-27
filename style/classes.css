@@ -236,3 +236,27 @@
     flex-basis: auto;
     width: 75%;
 }
+
+.box3 {
+
+    height: 550px;
+   
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    flex: 1 1 150px;
+}
+
+.box_a {
+
+    background-color: pink;
+    border-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align:center;
+    padding: 15px;
+    width:fit-content;
+    margin:auto;
+}
